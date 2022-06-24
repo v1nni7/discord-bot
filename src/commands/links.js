@@ -12,7 +12,7 @@ module.exports = {
       .addFields(
         { name: 'W3Schools', value: 'https://www.w3schools.com/' },
         { name: 'Developer Mozilla', value: 'https://developer.mozilla.org/pt-BR/' },
-        { name: 'Teste-3', value: 'Algum valor aqui' }
+        { name: 'Geek Hunter', value: 'https://blog.geekhunter.com.br/' }
       )
     return interaction.reply({ embeds: [messageEmbed] });
   }
